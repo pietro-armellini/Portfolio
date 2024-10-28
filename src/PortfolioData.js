@@ -10,7 +10,7 @@ const about = {
   role: ["FrontEnd Developer", "BackEnd Developer", "Full Stack Developer", "XR Developer"],
 	photo: "src/assets/me.png",
   description:
-    "I am an aspiring full-stack developer focused on MERN stack with experience in building responsive, interactive web applications. Passionate about learning new technologies and writing clean, efficient code.",
+    "I'm Pietro Armellini, a final-year Computer Science student with a minor in Business & Economics. I'm a full-stack developer with a passion for Extended Reality (XR) and Blockchain, exploring both their technical and practical applications. I enjoy leading teams, solving problems, and applying my technical skills to real-world challenges.",
   resume:
     "https://drive.google.com/file/d/1No9kbiWEJgaKZarEKZYW_QKPm9ccPUtJ/view?usp=sharing",
   social: {
@@ -47,22 +47,8 @@ const projects = []
     livePreview: "",
   },
 ]; */
-const skills = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Redux",
-  "Tailwind CSS",
-  "Material UI",
-  "Git",
-  "CI/CD",
-  "Jest",
-  "Enzyme",
-];
 const contact = {
   email: "pietro.armellini.personale@gmail.com",
 };
 
-export { header, about, projects, skills, contact };
+export { header, about, projects, contact };

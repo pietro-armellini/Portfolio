@@ -4,7 +4,9 @@ import ThemeToggle from "./ThemeToggle";
 const NAV_ITEMS = [
   { href: "#projects", label: "Projects" },
   { href: "#skills", label: "Skills" },
-  { href: "#contact", label: "Contact" },
+  { href: "#education", label: "Education" },
+  { href: "#experience", label: "Experience" },
+/*   { href: "#contact", label: "Contact" }, */
 ];
 
 const Header = () => {

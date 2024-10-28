@@ -7,7 +7,7 @@ const Project = () => {
         Projects
       </h1>
       <div className="flex justify-center items-center flex-wrap mt-10">
-				Section Under Development
+				Under Development
         {projects.map((items) => (
           <ProjectCards
             key={items.name}

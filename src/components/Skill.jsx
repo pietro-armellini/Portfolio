@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FrontEnd, BackEnd, Technology } from "../Images";
+import { FrontEnd, BackEnd, Technology, ExtendedReality, DataManagment } from "../Images";
 const Skill = () => {
   const [activeTab, setActiveTab] = useState("FrontEnd");
   const handleToggle = (tab) => {
@@ -26,6 +26,20 @@ const Skill = () => {
         >
           BackEnd
         </a>
+				<a
+          role="tab"
+          className={`tab ${activeTab === "Data" ? "tab-active" : ""}`}
+          onClick={() => handleToggle("Data")}
+        >
+          Data
+        </a>
+				<a
+          role="tab"
+          className={`tab ${activeTab === "ExtendedReality" ? "tab-active" : ""}`}
+          onClick={() => handleToggle("ExtendedReality")}
+        >
+          XR
+        </a>
         <a
           role="tab"
           className={`tab ${activeTab === "Technologies" ? "tab-active" : ""}`}
@@ -48,6 +62,28 @@ const Skill = () => {
       <div className="flex flex-wrap gap-5 justify-center items-center">
         {activeTab === "BackEnd" &&
           BackEnd.map((items, index) => (
+            <img
+              key={index}
+              src={items}
+              alt=""
+              className="hover:scale-95 btn object-contain w-24 h-24"
+            />
+          ))}
+      </div>
+			<div className="flex flex-wrap gap-5 justify-center items-center">
+        {activeTab === "Data" &&
+          DataManagment.map((items, index) => (
+            <img
+              key={index}
+              src={items}
+              alt=""
+              className="hover:scale-95 btn object-contain w-24 h-24"
+            />
+          ))}
+      </div>
+			<div className="flex flex-wrap gap-5 justify-center items-center">
+        {activeTab === "ExtendedReality" &&
+          ExtendedReality.map((items, index) => (
             <img
               key={index}
               src={items}
