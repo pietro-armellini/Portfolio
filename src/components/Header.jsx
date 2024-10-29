@@ -6,7 +6,7 @@ const NAV_ITEMS = [
   { href: "#skills", label: "Skills" },
   { href: "#education", label: "Education" },
   { href: "#experience", label: "Experience" },
-/*   { href: "#contact", label: "Contact" }, */
+  // { href: "#contact", label: "Contact" }, // Uncomment if needed
 ];
 
 const Header = () => {
@@ -15,8 +15,8 @@ const Header = () => {
       {/* Logo or Title */}
       <h1 className="text-3xl text-primary font-semibold">PA</h1>
 
-      {/* Centered Navigation Menu */}
-      <nav className="absolute left-1/2 transform -translate-x-1/2 sm:flex gap-5 text-xl">
+      {/* Centered Navigation Menu - Only visible on larger screens */}
+      <nav className="hidden sm:flex absolute left-1/2 transform -translate-x-1/2 gap-5 text-xl">
         {NAV_ITEMS.map(({ href, label }) => (
           <a
             key={href}
@@ -30,9 +30,6 @@ const Header = () => {
 
       {/* Theme Toggle */}
       <ThemeToggle />
-
-      {/* Optionally, Dark Mode Toggle can be added here */}
-      {/* <DarkModeToggle /> */}
     </header>
   );
 };
