@@ -32,10 +32,14 @@ import git from "./assets/git.png";
 import vscode from "./assets/vscode.png";
 import ubuntu from "./assets/ubuntu.png";
 
+//me 
+import me from "./assets/me.png";
+
 
 export const FrontEnd = [html, css, js, ts, react, next, mui];
 export const BackEnd = [nodejs, express, prisma, sql]; 
 export const DataManagment = [python, java]; //Java
 export const ExtendedReality = [unity3d, csharp, arcore, vuforia]; 
 export const Technology = [vscode, git, ubuntu];	
+export const Me = me
 

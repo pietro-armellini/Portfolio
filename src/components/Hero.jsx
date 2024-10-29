@@ -1,9 +1,10 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { about } from "../PortfolioData";
 import Typewriter from "typewriter-effect";
+import { Me } from "../Images";
 
 const Hero = () => {
-  const { name, role, description, resume, social, photo } = about; // Add photo to about object
+  const { name, role, description, resume, social } = about; // Add photo to about object
 
   return (
     <div className="hero min-h-[calc(100vh-4rem)] sm:min-h-[calc(100vh-6rem)]">
@@ -11,7 +12,7 @@ const Hero = () => {
         {/* Center the photo */}
         <div className="mb-6 flex justify-center">
           <img
-            src={photo} // photo URL from the about object
+            src={Me} // photo URL from the about object
             alt="Profile"
             className="rounded-full border-4 border-primary shadow-lg w-50 h-50 sm:w-48 sm:h-48 lg:w-56 lg:h-56 object-cover"
           />

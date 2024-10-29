@@ -8,7 +8,6 @@ const header = {
 const about = {
   name: "Pietro Armellini",
   role: ["FrontEnd Developer", "BackEnd Developer", "Full Stack Developer", "XR Developer"],
-	photo: "src/assets/me.png",
   description:
     "I'm Pietro Armellini, a final-year Computer Science student with a minor in Business & Economics. I'm a full-stack developer with a passion for Extended Reality (XR) and Blockchain, exploring both their technical and practical applications. I enjoy leading teams, solving problems, and applying my technical skills to real-world challenges.",
   resume:
