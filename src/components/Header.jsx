@@ -1,11 +1,12 @@
 // Import the required components
+import daisyui from "daisyui";
 import ThemeToggle from "./ThemeToggle";
 
 const NAV_ITEMS = [
-  { href: "#projects", label: "Projects" },
-  { href: "#skills", label: "Skills" },
-  { href: "#education", label: "Education" },
-  { href: "#experience", label: "Experience" },
+  { href: "#projects", label: "Projects", disabled: false },
+  { href: "#skills", label: "Skills", disabled: false },
+  { href: "#education", label: "Education", disabled: true },
+  { href: "#experience", label: "Experience", disabled: true },
   // { href: "#contact", label: "Contact" }, // Uncomment if needed
 ];
 
@@ -17,8 +18,9 @@ const Header = () => {
 
       {/* Centered Navigation Menu - Only visible on larger screens */}
       <nav className="hidden sm:flex absolute left-1/2 transform -translate-x-1/2 gap-5 text-xl">
-        {NAV_ITEMS.map(({ href, label }) => (
+        {NAV_ITEMS.map(({ href, label, disabled }) => (
           <a
+						hidden={disabled}
             key={href}
             href={href}
             className="hover:text-primary hover:scale-105 font-medium transition-all duration-200 ease-in"

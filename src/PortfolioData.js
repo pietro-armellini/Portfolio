@@ -11,7 +11,7 @@ const about = {
   description:
     "Computer Science student with a minor in Business & Economics, focused on full-stack development to create practical solutions that solve problems and simplify life for people and companies. Also passionate about Extended Reality (XR), with a keen interest in its potential in gaming and industrial sectors.",
   resume:
-    "https://drive.google.com/file/d/1No9kbiWEJgaKZarEKZYW_QKPm9ccPUtJ/view?usp=sharing",
+    "https://drive.google.com/file/d/1_0lbtfy9mhsvnRQWOxN5hDEWCVZeBLxr/view?usp=sharing",
   social: {
     linkedin: "https://www.linkedin.com/in/pietro-armellini/",
     github: "https://github.com/pietro-armellini",
