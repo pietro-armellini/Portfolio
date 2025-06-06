@@ -1,6 +1,7 @@
 import yumrun from "./assets/YumRun.png";
 import netflix from "./assets/Netflix.jpg";
 import focustube from "./assets/FocusTube.png";
+import softwaremanager from "./assets/softwaremanager.png";
 const header = {
   homepage: "",
   title: "Ankit Singh",
@@ -17,17 +18,17 @@ const about = {
     github: "https://github.com/pietro-armellini",
   },
 };
-const projects = []
-  /* {
-    name: "YumRun",
+const projects = [
+   {
+    name: "Software Manager",
     description:
-      "A food ordering app built with React, Redux, and Tailwind CSS. It offers a clean user interface and seamless user experience for ordering meals.",
-    stack: ["React", "Redux", "Tailwind CSS"],
-    image: yumrun,
-    sourceCode: "https://github.com/sankitdev/YumRun",
-    livePreview: "https://yumrun-b81a7.web.app/",
+      "This project is a Software Manager designed to streamline the management of a system focused on products and their associated firmware. It offers a comprehensive set of features such as version tracking; firmware deployment; product configuration management; and status reporting.",
+    stack: ["NextJS", "NodeJS", "MUI", "MySQL", "Express", "Prisma"],
+    image: softwaremanager,
+    sourceCode: "https://github.com/pietro-armellini/SoftwareManager",
+    livePreview: "http://pietroarmellini.com:3000/",
   },
-  {
+  /* {
     name: "NetFlix GPT",
     description:
       "Netflix GPT is a single-page web application that allows users to explore movies from the TMDB API, while offering AI-powered content generation through GPT. The app leverages React for the frontend, Redux for state management, and Firebase for authentication.",
@@ -44,8 +45,8 @@ const projects = []
     image: focustube,
     sourceCode: "https://github.com/sankitdev/focus-tube",
     livePreview: "",
-  },
-]; */
+  }, */
+]; 
 const contact = {
   email: "pietro.armellini.personale@gmail.com",
 };

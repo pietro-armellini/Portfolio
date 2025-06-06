@@ -9,33 +9,34 @@ const ProjectCards = ({
   live,
 }) => {
   return (
-    <div className="card card-bordered w-full lg:h-96 bg-base-100 lg:flex-row shadow-xl my-5 mx-5 hover:scale-95 transition-all duration-300 ease-in">
-      <figure className="px-2">
-        <img
-          src={image}
-          alt="YumRun"
-          className="rounded-xl object-cover hover:scale-110 transition-all duration-300 ease-in"
-        />
-      </figure>
-      <div className="card-body justify-center items-center text-center">
-        <h2 className="card-title text-primary text-3xl mt-5">{name}</h2>
-        <h3 className="md:w-4/5">{description}</h3>
-        <h4 className="text-primary pb-4">{techStack.join(" , ")}</h4>
-        <div className="card-actions">
-          <a href={github} target="_blank" rel="noopener noreferrer">
-            <button className="btn btn-circle">
-              <FaGithub />
-            </button>
-          </a>
-          <a href={live} target="_blank" rel="noopener noreferrer">
-            <button className="btn btn-circle">
-              <FaExternalLinkAlt />
-            </button>
-          </a>
-        </div>
+  <div className="card card-bordered w-full lg:h-96 bg-base-100 lg:flex-row shadow-xl my-5 mx-5 hover:scale-95 transition-all duration-300 ease-in">
+    <figure className="w-full lg:w-1/2 h-64 lg:h-full overflow-hidden flex justify-center items-center p-4">
+      <img
+        src={image}
+        alt="YumRun"
+        className="max-h-full max-w-full object-cover rounded-xl transition-all duration-300 ease-in"
+      />
+    </figure>
+    <div className="card-body justify-center items-center text-center w-full lg:w-1/2">
+      <h2 className="card-title text-primary text-3xl mt-5">{name}</h2>
+      <h3 className="md:w-4/5">{description}</h3>
+      <h4 className="text-primary pb-4">{techStack.join(" , ")}</h4>
+      <div className="card-actions">
+        <a href={github} target="_blank" rel="noopener noreferrer">
+          <button className="btn btn-circle">
+            <FaGithub />
+          </button>
+        </a>
+        <a href={live} target="_blank" rel="noopener noreferrer">
+          <button className="btn btn-circle">
+            <FaExternalLinkAlt />
+          </button>
+        </a>
       </div>
     </div>
-  );
+  </div>
+);
+
 };
 ProjectCards.propTypes = {
   name: PropTypes.string.isRequired,
