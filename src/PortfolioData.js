@@ -10,9 +10,9 @@ const about = {
   name: "Pietro Armellini",
   role: ["FrontEnd Developer", "BackEnd Developer", "Full Stack Developer", "XR Developer"],
   description:
-    "Computer Science student with a minor in Business & Economics, focused on full-stack development to create practical solutions that solve problems and simplify life for people and companies. Also passionate about Extended Reality (XR), with a keen interest in its potential in gaming and industrial sectors.",
+    "Final-year Computer Science student with a Business & Economics minor, passionate about XR and full-stack development. I’m driven by a love for immersive, impactful technology with real-world applications and a strong focus on productivity.",
   resume:
-    "https://drive.google.com/file/d/1_0lbtfy9mhsvnRQWOxN5hDEWCVZeBLxr/view?usp=sharing",
+    "https://drive.google.com/file/d/1HUPTFMWDvpykeBUm3HuSKFaO17vowMjd/view?usp=sharing",
   social: {
     linkedin: "https://www.linkedin.com/in/pietro-armellini/",
     github: "https://github.com/pietro-armellini",
