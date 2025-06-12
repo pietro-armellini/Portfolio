@@ -36,10 +36,11 @@ import ubuntu from "./assets/ubuntu.png";
 import me from "./assets/me.png";
 
 
-export const FrontEnd = [html, css, js, ts, react, next, mui];
-export const BackEnd = [nodejs, express, prisma, sql]; 
-export const DataManagment = [python, java]; //Java
-export const ExtendedReality = [unity3d, csharp, arcore, vuforia]; 
-export const Technology = [vscode, git, ubuntu];	
+export const FrontEnd = [[html, "HTML"],  [css,"CSS"], [js, "Javascript"], [ts, "Typescript"], [react, "React"], [next,"NextJS"]];
+export const BackEnd = [[nodejs, "NodeJS"], [express, "Express"], [prisma,"Prisma"], [sql, "SQL"]]; //sql
+export const DataManagment = [[python, "Python"], [java,"Java"]];
+export const ExtendedReality = [[unity3d, "Unity 3D"], [csharp, "C#"], [arcore, "ARCore"], [vuforia, "Vuforia]"]]; 
+export const Technology = [[vscode, "VS Code"], [git,"Git"], [ubuntu, "Ubuntu"]]; //Ubuntu	
+
 export const Me = me
 

@@ -27,46 +27,56 @@ const Skill = () => {
         ))}
       </div>
       <div className="flex flex-wrap gap-5 justify-center items-center mt-10 max-w-4xl mx-auto"> {/* Added max-w-4xl */}
-        {activeTab === "FrontEnd" && FrontEnd.map((item, index) => (
-          <img
-            key={index}
-            src={item}
-            alt=""
-            className="hover:scale-95 btn object-contain w-24 h-24"
-          />
-        ))}
-        {activeTab === "BackEnd" && BackEnd.map((item, index) => (
-          <img
-            key={index}
-            src={item}
-            alt=""
-            className="hover:scale-95 btn object-contain w-24 h-24"
-          />
-        ))}
-        {activeTab === "Data" && DataManagment.map((item, index) => (
-          <img
-            key={index}
-            src={item}
-            alt=""
-            className="hover:scale-95 btn object-contain w-24 h-24"
-          />
-        ))}
-        {activeTab === "ExtendedReality" && ExtendedReality.map((item, index) => (
-          <img
-            key={index}
-            src={item}
-            alt=""
-            className="hover:scale-95 btn object-contain w-24 h-24"
-          />
-        ))}
-        {activeTab === "Technologies" && Technology.map((item, index) => (
-          <img
-            key={index}
-            src={item}
-            alt=""
-            className="hover:scale-95 btn object-contain w-24 h-24"
-          />
-        ))}
+        {activeTab === "FrontEnd" && FrontEnd.map(([img, name], index) => (
+					<div key={index} className="flex flex-col items-center">
+						<img
+							src={img}
+							alt={name}
+							className="hover:scale-95 btn object-contain w-24 h-24"
+						/>
+						<span className="mt-2 text-sm">{name}</span>
+					</div>
+				))}
+        {activeTab === "BackEnd" && BackEnd.map(([img, name], index) => (
+					<div key={index} className="flex flex-col items-center">
+						<img
+							src={img}
+							alt={name}
+							className="hover:scale-95 btn object-contain w-24 h-24"
+						/>
+						<span className="mt-2 text-sm">{name}</span>
+					</div>
+				))}
+        {activeTab === "Data" && DataManagment.map(([img, name], index) => (
+					<div key={index} className="flex flex-col items-center">
+						<img
+							src={img}
+							alt={name}
+							className="hover:scale-95 btn object-contain w-24 h-24"
+						/>
+						<span className="mt-2 text-sm">{name}</span>
+					</div>
+				))}
+        {activeTab === "ExtendedReality" && ExtendedReality.map(([img, name], index) => (
+					<div key={index} className="flex flex-col items-center">
+						<img
+							src={img}
+							alt={name}
+							className="hover:scale-95 btn object-contain w-24 h-24"
+						/>
+						<span className="mt-2 text-sm">{name}</span>
+					</div>
+				))}
+        {activeTab === "Technologies" && Technology.map(([img, name], index) => (
+					<div key={index} className="flex flex-col items-center">
+						<img
+							src={img}
+							alt={name}
+							className="hover:scale-95 btn object-contain w-24 h-24"
+						/>
+						<span className="mt-2 text-sm">{name}</span>
+					</div>
+				))}
       </div>
     </div>
   );
