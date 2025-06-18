@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FrontEnd, BackEnd, Technology, ExtendedReality, DataManagment } from "../Images";
+import { FrontEnd, BackEnd, Technology, ExtendedReality, Languages } from "../Images";
 
 const Skill = () => {
   const [activeTab, setActiveTab] = useState("FrontEnd");
@@ -15,7 +15,7 @@ const Skill = () => {
         role="tablist"
         className="tabs tabs-boxed mt-10 w-full max-w-4xl mx-auto flex flex-wrap justify-center" // Added max-w-4xl
       >
-        {["FrontEnd", "BackEnd", "Data", "ExtendedReality", "Technologies"].map((tab) => (
+        {["FrontEnd", "BackEnd", "Languages", "ExtendedReality", "Technologies"].map((tab) => (
           <a
             key={tab}
             role="tab"
@@ -47,7 +47,7 @@ const Skill = () => {
 						<span className="mt-2 text-sm">{name}</span>
 					</div>
 				))}
-        {activeTab === "Data" && DataManagment.map(([img, name], index) => (
+        {activeTab === "Languages" && Languages.map(([img, name], index) => (
 					<div key={index} className="flex flex-col items-center">
 						<img
 							src={img}
