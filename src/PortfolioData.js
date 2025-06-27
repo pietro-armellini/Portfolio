@@ -1,5 +1,5 @@
 import yumrun from "./assets/YumRun.png";
-import netflix from "./assets/Netflix.jpg";
+import towerdefensear from "./assets/towerdefensear.png";
 import focustube from "./assets/FocusTube.png";
 import softwaremanager from "./assets/softwaremanager.png";
 const header = {
@@ -23,20 +23,21 @@ const projects = [
     name: "Software Manager",
     description:
       "This project is a Software Manager designed to streamline the management of a system focused on products and their associated firmware. It offers a comprehensive set of features such as version tracking; firmware deployment; product configuration management; and status reporting.",
-    stack: ["NextJS", "NodeJS", "MUI", "MySQL", "Express", "Prisma"],
+    stack: ["NextJS", "NodeJS", "MUI", "MySQL", "Express", "Prisma", "Zod"],
     image: softwaremanager,
     sourceCode: "https://github.com/pietro-armellini/SoftwareManager",
     livePreview: "http://pietroarmellini.com:3000/",
   },
-  /* {
-    name: "NetFlix GPT",
+  {
+    name: "Tower Defense AR",
     description:
-      "Netflix GPT is a single-page web application that allows users to explore movies from the TMDB API, while offering AI-powered content generation through GPT. The app leverages React for the frontend, Redux for state management, and Firebase for authentication.",
-    stack: ["React", "Redux", "Tailwind CSS"],
-    image: netflix,
-    sourceCode: "https://github.com/sankitdev/YumRun",
-    livePreview: "https://netflixgpt-b8752.web.app/",
+      "This project is an AR tower defense game developed with Unity and Google ARCore. It enables gameplay within real-world environments using a mobile device's camera. Features include tower placement, enemy pathing, wave progression, and spatial interaction.",
+    stack: ["ARCore", "Unity3D", "C#"],
+    image: towerdefensear,
+    sourceCode: "https://github.com/pietro-armellini/TowerDefense-AR",
+    livePreview: "https://github.com/pietro-armellini/TowerDefense-AR",
   },
+	/*
   {	
     name: "FocusTube",
     description:
