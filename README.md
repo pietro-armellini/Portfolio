@@ -1,63 +1,45 @@
-# 🌐 My Portfolio Website
 
-My first **minimal**, **customizable**, **blazingly fast**, and **SEO-friendly** website, built to showcase my work as a developer! 🚀
+# 💼 My Portfolio
 
-## Project Overview
+This is my personal portfolio website.
 
-<img src="./public/mockup.png">
+It’s built using **React**, **Tailwind CSS**, and **Daisy UI**, with **Vite** as the bundler.
 
-I have developed this portfolio website with **React**, **Tailwind CSS**, and **Daisy UI**. 🎨✨  
-Using **Vite** as a bundler, which is fast and helps with project setup. ⚡️
+---
 
-## 🚀 Features
+## Run
 
-- **Responsive Design:** Optimized for various devices and screen sizes.
-- **Project Showcases:** Detailed sections for each of my projects with links to live demos and GitHub repositories.
-- **Interactive Contact Section:** Easily reach out via email.
+To run this project on your local machine:
 
-## 🛠️ Technologies Used
-
-- **Frontend:**
-  - React
-  - Tailwind CSS
-  - Daisy UI
-- For TyperWriter Effect I used **TypeWriter library**
-
-## 🔧 Fork and Customize
-
-If you'd like to create your own version of this portfolio, you can **fork** this repository and customize it with your own information.
-
-### Steps to Fork:
-
-1. **Fork this repository:**
-   Click the **Fork** button at the top-right corner of this page to copy the repository to your GitHub account.
-2. Clone the repository:
+1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/sankitdev/portfolio
+   git clone https://github.com/pietro-armellini/portfolio.git
    ```
 
-3. Navigate to the project directory:
+2. **Navigate to the project folder:**
 
    ```bash
-   cd your-portfolio-directory
+   cd your-portfolio-repo
    ```
 
-4. Install the dependencies:
+3. **Install dependencies:**
+
    ```bash
    npm install
    ```
-5. Start the development server:
+
+4. **Start the development server:**
+
    ```bash
    npm run dev
    ```
-6. Open your browser and visit your development server link.
 
-## Contribution
+5. Open your browser and go to `http://localhost:5173`
 
-- Contributions are welcome! If you'd like to contribute to this project, feel free to fork the repository and submit a pull request.
-- Refer to [Contribution](./CONTRIBUTING.md) for more information.
+---
 
-##
+## 🙌 Credit
 
-- If you use or build upon this project, giving credit would be appreciated! You can mention me in your project or provide a link back to the original repository. 😊
+This project is based on the original work by [sankitdev](https://github.com/sankitdev/portfolio).  
+All credit for the template and structure goes to them.
