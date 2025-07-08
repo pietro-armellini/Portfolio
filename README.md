@@ -20,7 +20,7 @@ To run this project on your local machine:
 2. **Navigate to the project folder:**
 
    ```bash
-   cd your-portfolio-repo
+   cd portfolio
    ```
 
 3. **Install dependencies:**
