@@ -1,6 +1,6 @@
 import yumrun from "./assets/YumRun.png";
 import towerdefensear from "./assets/towerdefensear.png";
-import focustube from "./assets/FocusTube.png";
+import carpentrymanager from "./assets/carpentrymanager.png";
 import softwaremanager from "./assets/softwaremanager.png";
 const header = {
   homepage: "",
@@ -36,6 +36,15 @@ const projects = [
     image: towerdefensear,
     sourceCode: "https://github.com/pietro-armellini/TowerDefense-AR",
     livePreview: "https://github.com/pietro-armellini/TowerDefense-AR",
+  },
+	{
+    name: "Carpentry Manager",
+    description:
+      "This project is a Carpentry Management System developed using Node.js, Express.js and MySQL. It was created as part of the Software Engineering course at the University of Trento.",
+     stack: ["Vue.js", "NodeJS", "MySQL", "Express"],
+    image: carpentrymanager,
+    sourceCode: "https://github.com/pietro-armellini/CarpentryManager",
+    livePreview: "http://pietroarmellini.com:8081/",
   },
 	/*
   {	
