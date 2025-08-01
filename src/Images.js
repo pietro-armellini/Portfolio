@@ -7,7 +7,6 @@ import js from "./assets/js.svg";
 import ts from "./assets/ts.svg";
 import react from "./assets/react.svg";
 import next from "./assets/next.svg";
-import mui from "./assets/mui.png";
 
 //BackEnd
 import express from "./assets/express.svg";
@@ -39,7 +38,7 @@ import me from "./assets/me.png";
 export const FrontEnd = [[html, "HTML"],  [css,"CSS"],  [react, "React"], [next,"NextJS"]];
 export const BackEnd = [[nodejs, "NodeJS"], [express, "Express"], [prisma,"Prisma"], [sql, "SQL"]]; //sql
 export const Languages = [[js, "Javascript"], [ts, "Typescript"],[python, "Python"], [java,"Java"], [csharp, "C#"]];
-export const ExtendedReality = [[unity3d, "Unity 3D"], [arcore, "ARCore"], [vuforia, "Vuforia]"]]; 
+export const ExtendedReality = [[unity3d, "Unity 3D"], [arcore, "ARCore"], [vuforia, "Vuforia"]]; 
 export const Technology = [[vscode, "VS Code"], [git,"Git"], [ubuntu, "Ubuntu"]]; //Ubuntu	
 
 export const Me = me

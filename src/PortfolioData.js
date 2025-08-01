@@ -1,4 +1,3 @@
-import yumrun from "./assets/YumRun.png";
 import towerdefensear from "./assets/towerdefensear.png";
 import carpentrymanager from "./assets/carpentrymanager.png";
 import softwaremanager from "./assets/softwaremanager.png";
@@ -35,7 +34,6 @@ const projects = [
     stack: ["ARCore", "Unity3D", "C#"],
     image: towerdefensear,
     sourceCode: "https://github.com/pietro-armellini/TowerDefense-AR",
-    livePreview: "https://github.com/pietro-armellini/TowerDefense-AR",
   },
 	{
     name: "Carpentry Manager",

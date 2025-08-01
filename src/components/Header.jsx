@@ -1,12 +1,11 @@
 // Import the required components
-import daisyui from "daisyui";
 import ThemeToggle from "./ThemeToggle";
 
 const NAV_ITEMS = [
   { href: "#projects", label: "Projects", disabled: false },
+  { href: "#experience", label: "Experience", disabled: false },
+  { href: "#education", label: "Education", disabled: false },
   { href: "#skills", label: "Skills", disabled: false },
-  { href: "#education", label: "Education", disabled: true },
-  { href: "#experience", label: "Experience", disabled: true },
   // { href: "#contact", label: "Contact" }, // Uncomment if needed
 ];
 
