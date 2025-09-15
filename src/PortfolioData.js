@@ -3,15 +3,15 @@ import carpentrymanager from "./assets/carpentrymanager.png";
 import softwaremanager from "./assets/softwaremanager.png";
 const header = {
   homepage: "",
-  title: "Ankit Singh",
+  title: "Pietro Armellini",
 };
 const about = {
   name: "Pietro Armellini",
   role: ["FrontEnd Developer", "BackEnd Developer", "Full Stack Developer", "XR Developer"],
   description:
-    "Final-year Computer Science student with a Business & Economics minor, passionate about XR and full-stack development. I’m driven by a love for immersive, impactful technology with real-world applications and a strong focus on productivity.",
+    "Computer Science graduate with a minor in Business & Economics, passionate about XR and full-stack development. I’m driven by a love for immersive, impactful technology with real-world applications and a strong focus on productivity.",
   resume:
-    "https://drive.google.com/file/d/1HUPTFMWDvpykeBUm3HuSKFaO17vowMjd/view?usp=sharing",
+    "https://drive.google.com/file/d/1pT9pWsXvFTfIcP-pTy7rX7Qihl6-kY-5/view?usp=sharing",
   social: {
     linkedin: "https://www.linkedin.com/in/pietro-armellini/",
     github: "https://github.com/pietro-armellini",
