@@ -1,13 +1,14 @@
 import towerdefensear from "./assets/towerdefensear.png";
 import carpentrymanager from "./assets/carpentrymanager.png";
 import softwaremanager from "./assets/softwaremanager.png";
+import mineisland from "./assets/mineisland.png";
 const header = {
   homepage: "",
   title: "Pietro Armellini",
 };
 const about = {
   name: "Pietro Armellini",
-  role: ["FrontEnd Developer", "BackEnd Developer", "Full Stack Developer", "XR Developer"],
+  role: ["BackEnd Developer", "Full Stack Developer", "XR Developer", "Software Engineer"],
   description:
     "Computer Science graduate with a minor in Business & Economics, passionate about XR and full-stack development. I’m driven by a love for immersive, impactful technology with real-world applications and a strong focus on productivity.",
   resume:
@@ -43,6 +44,15 @@ const projects = [
     image: carpentrymanager,
     sourceCode: "https://github.com/pietro-armellini/CarpentryManager",
     livePreview: "http://pietroarmellini.com:8081/",
+  },
+	{
+    name: "MineIsland",
+    description:
+      "This project is a Minecraft server plugin implemented in Java. It generates and manages private, upgradable floating islands for players.",
+     stack: ["Java", "SpigotAPI", "Bukkit", "PaperMC", "Maven"],
+    image: mineisland,
+    sourceCode: "https://github.com/pietro-armellini/MineIsland",
+    livePreview: "https://www.spigotmc.org/resources/mineisland-private-safe-islands.129220/",
   },
 	/*
   {	
