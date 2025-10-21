@@ -4,6 +4,7 @@ import Experience from "./Experience";
 import Hero from "./Hero";
 import Project from "./Projects";
 import Skill from "./Skill";
+import Contact from "./Contact";
 
 const Body = () => {
   return (
@@ -14,7 +15,7 @@ const Body = () => {
 			<Education />
       <Skill />
 			
-      {/* <Contact /> */}	
+      <Contact />	
     </>
   );
 };
