@@ -11,7 +11,7 @@ const about = {
   description:
     "Computer Science graduate with a minor in Business & Economics, passionate about XR and full-stack development. I’m driven by a love for immersive, impactful technology with real-world applications and a strong focus on productivity.",
   resume:
-    "https://drive.google.com/file/d/1pT9pWsXvFTfIcP-pTy7rX7Qihl6-kY-5/view?usp=sharing",
+    "https://drive.google.com/file/d/1pztrsZGcqZDT1Bllm3i83hazfcKff21l/view?usp=sharing",
   social: {
     linkedin: "https://www.linkedin.com/in/pietro-armellini/",
     github: "https://github.com/pietro-armellini",
