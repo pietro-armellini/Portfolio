@@ -1,5 +1,3 @@
-// Import the required components
-import ThemeToggle from "./ThemeToggle";
 
 const NAV_ITEMS = [
   { href: "#projects", label: "Projects", disabled: false },
@@ -29,8 +27,6 @@ const Header = () => {
         ))}
       </nav>
 
-      {/* Theme Toggle */}
-      <ThemeToggle />
     </header>
   );
 };
