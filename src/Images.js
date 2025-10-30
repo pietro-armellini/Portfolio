@@ -6,10 +6,10 @@ import css from "./assets/css.svg";
 import js from "./assets/js.svg";
 import ts from "./assets/ts.svg";
 import react from "./assets/react.svg";
-import next from "./assets/next.svg";
+import next from "./assets/nextjs-icon.png";
 
 //BackEnd
-import express from "./assets/express.svg";
+import express from "./assets/expressjs.svg";
 import nodejs from "./assets/node js.svg";
 import prisma from "./assets/prisma.png";
 import sql from "./assets/sql.svg";
