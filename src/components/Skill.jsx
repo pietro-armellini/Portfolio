@@ -16,7 +16,7 @@ const Skill = () => {
 
   return (
     <section id="skills" className="my-16">
-      <div className="w-[90vw] sm:w-[90%] lg:w-[70%] mx-auto my-6 p-6 font-sans text-base sm:text-xl max-w-[1400px]">
+      <div className="sm:w-[90%] lg:w-[70%] mx-auto my-2 p-6 font-sans text-base sm:text-xl max-w-[1400px]">
         {/* Section Title */}
         <h1 className="text-center text-5xl text-primary font-semibold mt-20 mb-8">
           Skills
