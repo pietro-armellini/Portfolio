@@ -10,7 +10,7 @@ const ExperienceCard = ({
   link,
 }) => {
   return (
-    <div className="relative bg-white/70 backdrop-blur-sm border border-gray-200 shadow-md hover:shadow-xl rounded-3xl overflow-hidden transition-all duration-300 ease-in-out w-full sm:w-[90%] lg:w-[70%] min-w-[300px] mx-auto my-5 p-6 flex flex-col sm:flex-row items-start sm:items-center gap-6 font-sans text-base sm:text-xl max-w-[1400px]">
+    <div className="relative bg-white/70 backdrop-blur-sm border border-gray-200 shadow-md hover:shadow-xl rounded-3xl overflow-hidden transition-all duration-300 ease-in-out w-full sm:w-[90%] lg:w-[70%] min-w-[300px] mx-auto my-2 p-6 flex flex-col sm:flex-row items-start sm:items-center gap-6 font-sans text-base sm:text-xl max-w-[1400px]">
 
       {/* Logo */}
       <figure className="w-28 h-28 flex-shrink-0 flex justify-center items-center rounded-2xl overflow-hidden bg-gray-50 mx-auto sm:mx-0">
