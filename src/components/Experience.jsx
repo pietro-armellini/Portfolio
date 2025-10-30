@@ -4,10 +4,10 @@ import { experienceData } from "../ExperienceData";
 const Experience = () => {
   return (
     <div id="experience" className="my-20">
-      <h1 className="text-center text-4xl text-primary font-semibold mb-10">
+      <h1 className="text-center text-5xl text-primary font-semibold mt-20 mb-8">
         Experience
       </h1>
-      <div className="flex justify-center items-center flex-col">
+      <div className="w-full flex flex-col items-center">
         {experienceData.length === 0 ? (
           <p className="text-center text-gray-500">Under Construction</p>
         ) : (

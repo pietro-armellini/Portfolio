@@ -14,7 +14,6 @@ const Body = () => {
 			<Experience />
 			<Education />
       <Skill />
-			
       <Contact />	
     </>
   );

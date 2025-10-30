@@ -12,6 +12,14 @@ body {
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
+
+/* Prevent the site from shrinking below 412px width.
+   This forces a minimum layout width and allows horizontal scrolling
+   instead of clipping or breaking the layout on very small viewports. */
+#root, html, body {
+  min-width: 412px;
+  overflow-x: auto;
+}
 @keyframes wave-animation {
   0% {
     transform: rotate(0deg);
