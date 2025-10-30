@@ -36,6 +36,8 @@ const projects = [
     stack: ["ARCore", "Unity3D", "C#"],
     image: towerdefensear,
     sourceCode: "https://github.com/pietro-armellini/TowerDefense-AR",
+		cropImage: true,
+
   },
 	{
     name: "Carpentry Manager",
@@ -45,6 +47,7 @@ const projects = [
     image: carpentrymanager,
     sourceCode: "https://github.com/pietro-armellini/CarpentryManager",
     livePreview: "http://pietroarmellini.com:8081/",
+		cropImage: true,	
   },
 	{
     name: "MineIsland",

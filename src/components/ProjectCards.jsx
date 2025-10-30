@@ -44,16 +44,16 @@ const ProjectCards = ({
   }, []);
 
   return (
-    <div className="relative bg-white/70 backdrop-blur-sm border border-gray-200 shadow-md hover:shadow-xl rounded-3xl overflow-hidden transition-all duration-300 ease-in-out w-[90%] lg:w-[70%] mx-auto my-10 p-10 font-sans text-base sm:text-xl">
+  <div className="relative bg-white/70 backdrop-blur-sm border border-gray-200 shadow-md hover:shadow-xl rounded-3xl overflow-hidden transition-all duration-300 ease-in-out w-[90vw] sm:w-[90%] lg:w-[70%] min-w-[370px] mx-auto my-5 p-6 font-sans text-base sm:text-xl max-w-[1400px]">
       {/* Title */}
       <h1 className="text-center text-4xl text-primary font-semibold mb-8">
         {name}
       </h1>
 
-      {/* Content Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-10 items-start">
-        {/* Image */}
-        <figure className="relative w-full h-72 lg:h-full overflow-hidden rounded-2xl group">
+  {/* Content Grid */}
+  <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-10 items-start">
+  {/* Image */}
+  <figure className="relative w-full h-72 xl:h-full overflow-hidden rounded-2xl group">
           <img
             src={image}
             alt={name}
@@ -70,7 +70,7 @@ const ProjectCards = ({
         </figure>
 
         {/* Text Content */}
-        <div className="flex flex-col justify-center w-full">
+        <div className="flex flex-col justify-center w-full mt-6 xl:mt-0">
           <p className="text-gray-700 leading-relaxed text-justify">
             {description}
           </p>
@@ -134,7 +134,7 @@ const ProjectCards = ({
                 src={image}
                 alt={`${name} preview`}
                 // prevent modal image from overflowing the viewport vertically
-                style={{ maxHeight: '90vh' }}
+                style={{ maxHeight: "90vh" }}
                 className="w-full h-auto object-contain bg-transparent"
               />
               <button

@@ -8,10 +8,10 @@ const Contact = () => {
       id="contact"
       className="my-24 flex flex-col items-center text-center px-4"
     >
-      <h2 className="text-4xl font-extrabold mb-4 text-primary">
-        Let’s Get In Touch
-      </h2>
-      <p className="py-6 md:w-4/5 mx-auto sm:text-xl">
+      <h1 className="text-center text-5xl text-primary font-semibold">
+        Contact me
+      </h1>
+      <p className="py-10 md:w-4/5 mx-auto sm:text-xl">
         I’m currently looking for software engineering opportunities — feel
         free to reach out if you think I’d be a good fit for your team or
         project.
