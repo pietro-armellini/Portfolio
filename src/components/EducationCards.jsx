@@ -31,7 +31,7 @@ const EducationCard = ({
       <div className="flex-1 min-w-0 text-center sm:text-left">
         {/* Title + Timeframe */}
         <div className="flex flex-wrap justify-center sm:justify-between items-center gap-2 w-full text-center sm:text-left">
-          <h2 className="text-primary text-3xl sm:text-4xl font-semibold break-words">
+          <h2 className="text-primary text-xl sm:text-2xl font-semibold break-words">
             {title}
           </h2>
           <span className="inline-flex items-center px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-base sm:text-xl">
