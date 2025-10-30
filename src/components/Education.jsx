@@ -4,7 +4,7 @@ import { educationData } from "../EducationData";
 const Education = () => {
   return (
     <div id="education" className="my-20">
-      <h1 className="text-center text-4xl text-primary font-semibold mb-10">
+       <h1 className="text-center text-5xl text-primary font-semibold mt-20 mb-8">
         Education
       </h1>
       <div className="flex justify-center items-center flex-col">
