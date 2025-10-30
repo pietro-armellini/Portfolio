@@ -16,7 +16,8 @@ const Project = () => {
             description={items.description}
             github={items.sourceCode}
             live={items.livePreview}
-						cropImage={items.cropImage}
+            livePreviewTextName={items.livePreviewTextName}
+            cropImage={items.cropImage}
           />
         ))}
       </div>

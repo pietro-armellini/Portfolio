@@ -57,6 +57,7 @@ const projects = [
     image: mineisland,
     sourceCode: "https://github.com/pietro-armellini/MineIsland",
     livePreview: "https://www.spigotmc.org/resources/mineisland-private-safe-islands.129220/",
+		livePreviewTextName: "Spigot Page",
   },
 	/*
   {	

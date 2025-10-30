@@ -11,6 +11,7 @@ const ProjectCards = ({
   github,
   live,
   cropImage = false,
+  livePreviewTextName = "Live Preview",
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
@@ -100,7 +101,7 @@ const ProjectCards = ({
                 <span>Source Code</span>
               </button>
             </a>
-            <a
+            {live ? <a
               href={live}
               target="_blank"
               rel="noopener noreferrer"
@@ -108,9 +109,9 @@ const ProjectCards = ({
             >
               <button className="px-4 py-2 rounded-2xl border border-primary text-primary font-semibold hover:bg-primary hover:text-white transition-all duration-300 shadow-sm hover:shadow-md flex items-center justify-center gap-1 text-base sm:text-lg">
                 <FaExternalLinkAlt className="" />
-                <span>Live Preview</span>
+                <span>{livePreviewTextName}</span>
               </button>
-            </a>
+            </a> : null}
           </div>
         </div>
       </div>
@@ -160,6 +161,7 @@ ProjectCards.propTypes = {
   github: PropTypes.string.isRequired,
   live: PropTypes.string.isRequired,
   cropImage: PropTypes.bool,
+	livePreviewTextName: PropTypes.string,
 };
 
 export default ProjectCards;
