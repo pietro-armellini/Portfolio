@@ -26,7 +26,6 @@ const Header = () => {
           </a>
         ))}
       </nav>
-
     </header>
   );
 };

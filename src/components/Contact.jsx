@@ -1,22 +1,32 @@
 const Contact = () => {
   const email = "contact@pietroarmellini.com";
   const subject = "Inquiry from Portfolio";
-  const body = "Hello, I would like to get in touch regarding..."; // Replace with your email
+  const body = "Hello Pietro, I would like to get in touch regarding...";
 
   return (
-    <div className="text-center my-20" id="contact">
-      <h1 className="text-4xl font-bold mb-10 text-primary">Lets Get In Touch!</h1>
+    <section
+      id="contact"
+      className="my-24 flex flex-col items-center text-center px-4"
+    >
+      <h2 className="text-4xl font-extrabold mb-4 text-primary">
+        Let’s Get In Touch
+      </h2>
+      <p className="py-6 md:w-4/5 mx-auto sm:text-xl">
+        I’m currently looking for software engineering opportunities — feel
+        free to reach out if you think I’d be a good fit for your team or
+        project.
+      </p>
 
       <a
         href={`mailto:${email}?subject=${encodeURIComponent(
           subject
         )}&body=${encodeURIComponent(body)}`}
       >
-        {" "}
-        <button className="btn btn-outline">Email Me!</button>
-      
+        <button className="px-6 py-3 rounded-2xl border-2 border-primary text-primary font-semibold hover:bg-primary hover:text-white transition-all duration-300 shadow-sm hover:shadow-md">
+          Email Me
+        </button>
       </a>
-    </div>
+    </section>
   );
 };
 

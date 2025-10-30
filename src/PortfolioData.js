@@ -27,6 +27,7 @@ const projects = [
     image: softwaremanager,
     sourceCode: "https://github.com/pietro-armellini/SoftwareManager",
     livePreview: "http://pietroarmellini.com:3000/",
+		cropImage: true,
   },
   {
     name: "Tower Defense AR",

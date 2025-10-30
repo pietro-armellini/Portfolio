@@ -35,29 +35,32 @@ const Hero = () => {
         <p className="py-6 md:w-4/5 mx-auto sm:text-xl">{description}</p>
         <div className="flex justify-center items-center">
           <a
-            href={resume}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-outline btn-primary px-5"
-          >
-            Resume
-          </a>
-          <a
-            href={social.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-outline mx-2 text-xl"
-          >
-            <FaGithub />
-          </a>
-          <a
-            href={social.linkedin}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-outline text-xl"
-          >
-            <FaLinkedin />
-          </a>
+  href={resume}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-6 py-3 rounded-2xl border-2 border-primary text-primary font-semibold hover:bg-primary hover:text-white transition-all duration-300 shadow-sm hover:shadow-md"
+>
+  Resume
+</a>
+
+<a
+  href={social.github}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-6 py-3 rounded-2xl border-2 border-gray-800 text-gray-800 font-semibold hover:bg-gray-800 hover:text-white transition-all duration-300 shadow-sm hover:shadow-md mx-2 text-xl flex items-center justify-center"
+>
+  <FaGithub />
+</a>
+
+<a
+  href={social.linkedin}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-6 py-3 rounded-2xl border-2 border-gray-800 text-gray-800 font-semibold hover:bg-gray-800 hover:text-white transition-all duration-300 shadow-sm hover:shadow-md text-xl flex items-center justify-center"
+>
+  <FaLinkedin />
+</a>
+
         </div>
       </div>
     </div>
