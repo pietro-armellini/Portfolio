@@ -34,7 +34,7 @@ const ExperienceCard = ({
           <h2 className="text-primary text-xl sm:text-2xl font-semibold break-words">
             {title}
           </h2>
-          <span className="inline-flex items-center px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-base sm:text-xl">
+          <span className="inline-flex items-center px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-base sm:text-lg">
             {timeframe}
           </span>
         </div>
