@@ -12,8 +12,7 @@ const Contact = () => {
         Contact me
       </h1>
       <p className="py-10 md:w-4/5 mx-auto sm:text-xl">
-        I’m currently looking for software engineering opportunities — feel
-        free to reach out!
+        Feel free to reach out!
       </p>
 
       <a

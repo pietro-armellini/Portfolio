@@ -26,7 +26,7 @@ const projects = [
     stack: ["NextJS", "NodeJS", "MUI", "MySQL", "Express", "Prisma", "Zod"],
     image: softwaremanager,
     sourceCode: "https://github.com/pietro-armellini/SoftwareManager",
-    livePreview: "http://pietroarmellini.com:3000/",
+    // livePreview: "http://pietroarmellini.com:3000/",
 		cropImage: true,
   },
   {
@@ -46,7 +46,7 @@ const projects = [
      stack: ["Vue.js", "NodeJS", "MySQL", "Express"],
     image: carpentrymanager,
     sourceCode: "https://github.com/pietro-armellini/CarpentryManager",
-    livePreview: "http://pietroarmellini.com:8081/",
+    // livePreview: "http://pietroarmellini.com:8081/",
 		cropImage: true,	
   },
 	{
